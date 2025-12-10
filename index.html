@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="./Style/Images/PNG/favicon.png" />
+    <meta
+      name="description"
+      content="Lotissement de Pointe Sarène:
+- Parcelle de 300m2 cumulable 
+- ⁠à 1200m de la mer 
+- ⁠3min du centre ville 
+- ⁠5min du RIU BAOBAB 
+- ⁠15 min de mbour 
+- ⁠25 min de Saly 
+- ⁠45 min de l’aéroport
+- ⁠1h15 Dakar"
+    />
+
+    <meta name="Keywords" content="" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Askan Ndaw Society T12</title>
+
+    <script
+      rel="preload"
+      src="https://aframe.io/releases/1.5.0/aframe.min.js"
+    ></script>
+
+    <script
+      rel="preload"
+      src="https://unpkg.com/aframe-event-set-component/dist/aframe-event-set-component.min.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./Style/Style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="hover_loader_container">
+      <div class="hover_loader">
+        <div class="lds-ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <a
+      class="link_to_archviz"
+      href="https://archviz-dakar.com/"
+      target="_blank"
+    >
+    </a>
+
+    <div class="The_Image_Back_Cover"></div>
+
+    <div class="the_blach_hover"></div>
+    <a onclick="history.back()" class="the-logo">
+      <img src="./Style/Images/PNG/Logo_Akan-Ndaw.png" width="100%" alt="" />
+    </a>
+
+    <a-scene
+      id="the_scene"
+      the_scene
+      cursor="rayOrigin: mouse"
+      look-controls-invert-y="false"
+      loading-screen="dotsColor:black; backgroundColor: #f1f1f1 "
+    >
+      <a-assets>
+        <img id="Arrow-1" src="./Style/Images/PNG/Arrow-1.png" />
+        <img id="Scene-0" src="./Style/Images/Scene-0.jpg" />
+        <img id="Scene-1" src="./Style/Images/Scene-1.jpg" />
+        <img id="Scene-2" src="./Style/Images/Scene-2.jpg" />
+        <img id="Scene-3" src="./Style/Images/Scene-3.jpg" />
+        <img id="Scene-4" src="./Style/Images/Scene-4.jpg" />
+        <img id="Scene-5" src="./Style/Images/Scene-5.jpg" />
+        <img id="Scene-6" src="./Style/Images/Scene-6.jpg" />
+        <img id="Scene-7" src="./Style/Images/Scene-7.jpg" />
+        <img id="Scene-8" src="./Style/Images/Scene-8.jpg" />
+        <img id="Scene-8" src="./Style/Images/Scene-8.jpg" />
+        <img id="Scene-9" src="./Style/Images/Scene-9.jpg" />
+      </a-assets>
+
+      <a-entity
+        laser-controls="hand: left"
+        raycaster="objects: [data-clickable] ; far: 500; lineColor: #23343b; lineOpacity: 0.5"
+      ></a-entity>
+
+      <a-entity
+        laser-controls="hand: right"
+        raycaster="objects: [data-clickable] ; far: 500; lineColor: #23343b; lineOpacity: 0.5"
+      ></a-entity>
+
+      <a-sky
+        id="image-360"
+        radius="500"
+        rotation="0 0 0"
+        src="#Scene-0"
+        look-controls-invert-y="false"
+        animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
+        animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"
+      >
+      </a-sky>
+      <!-- ############################################################ -->
+      <!-- ############################################################ -->
+      <!-- ############################################################ -->
+      <!-- ############################################################ -->
+      <!-- Group-0. -->
+      <a-entity
+        scale="1 1 1 "
+        rotation="0 0 0"
+        class="groups"
+        id="Group-0"
+        visible="true"
+      >
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".5"
+          class="pintings clickable"
+          position="-4.98354 -0.25491 0.99782"
+          rotation="-70.55001218784366 86.86842315096463 1.4484373060907212"
+          material="src: #Arrow-1; transparent:true"
+          the_dote="Name_of_dote: Dote-1  ; Group_to_activate: Group-1 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".5"
+          class="pintings clickable"
+          position="2.01365 -0.25491 5.12347"
+          rotation="-84.21104489714787 -90.3308071069402 -173.95285139069358"
+          material="src: #Arrow-1; transparent:true"
+          the_dote="Name_of_dote: Dote-5  ; Group_to_activate: Group-5 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".5"
+          class="pintings clickable"
+          position="-4.08531 0.27095 -6.13306"
+          rotation="-73.52939272252394 34.5373229326909 60.07290594608143"
+          material="src: #Arrow-1; transparent:true"
+          the_dote="Name_of_dote: Dote-6  ; Group_to_activate: Group-6 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-box
+            scale="0.20778 1.2573 0.23177"
+            position="4.42704 -0.25765 10.84287"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="-12.51771 0.46348 6.30409"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="-13.70243 1.05124 -8.60723"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="0.05243 0.53632 -12.39771"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+        </a-entity>
+
+        <!-------------->
+
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-35.62938 -2.4227 1.63752"
+            rotation="-73.15525128230351 58.983140219742594 -74.36075448325879"
+            material=""
+            geometry=""
+            scale="0.0365 2.02563 0.76022"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-25.98334 -7.70241 36.96137"
+            rotation="-71.61685960237725 177.63868888677015 89.80655072439549"
+            material=""
+            geometry=""
+            scale="0.048 3.98176 1"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="5.38366 -2.4227 0.53483"
+            rotation="-73.15525128230351 85.47327091982108 -74.36075448325879"
+            material=""
+            geometry=""
+            scale="0.0365 2.02563 0.76022"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-82.16899 -11.89083 -113.0565"
+            rotation="-87.3227786825034 17.15550230180711 81.53418607829667"
+            material=""
+            geometry=""
+            scale="0.26966 7.45063 1"
+          ></a-plane>
+        </a-entity>
+
+        <!-------------->
+      </a-entity>
+      <!-- Group-1. -->
+      <a-entity scale="0 90 0" class="groups" id="Group-1" visible="false">
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".5"
+          class="pintings clickable"
+          position="5.92036 -0.23311 -0.17469"
+          rotation="-52.97395886441053 -88.90586107044984 -178.85393237024263"
+          material="src: #Arrow-1; transparent:true"
+          the_dote="Name_of_dote: Dote-0  ; Group_to_activate: Group-0 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".5"
+          class="pintings clickable"
+          position="-5.63812 -0.23311 1.71271"
+          rotation="-74.00895839704845 87.60753870668339 4.3195288174912765"
+          material="src: #Arrow-1; transparent:true"
+          the_dote="Name_of_dote: Dote-2  ; Group_to_activate: Group-2 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <!-------------->
+
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-box
+            scale="0.20778 1.2573 0.23177"
+            position="8.41142 0.54687 12.70571"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="-7.4479 -0.191 3.66731"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-3.6347 0.356 -8.64035"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.208 1.257 0.232"
+            position="11.85123 0.142 -16.09036"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+        </a-entity>
+        <!-------------->
+
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-16.63385 -3.88836 -3.67471"
+            rotation="-72.22877852757696 34.8553145089885 -66.61264621970463"
+            material=""
+            geometry=""
+            scale="0.02263 1.5857 0.47136"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-6.97877 -6.0723 24.94005"
+            rotation="-71.61685960237725 -176.89498966869039 70.34317442380143"
+            material=""
+            geometry=""
+            scale="0.048 2.77866 1"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="64.67211 -11.23008 -5.25477"
+            rotation="-77.34185389132443 -92.79509858379787 89.1929129258104"
+            material=""
+            geometry=""
+            scale="0.117 8.24003 0.795"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="19.87016 -20.31241 -129.75221"
+            rotation="-86.23243999836941 -31.844421295576023 126.5279887721251"
+            material=""
+            geometry=""
+            scale="0.22108 7.41895 0.81985"
+          ></a-plane>
+        </a-entity>
+        <!-------------->
+      </a-entity>
+      <!-- Group-2. -->
+      <a-entity scale="0 90 0" class="groups" id="Group-2" visible="false">
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".5"
+          class="pintings clickable"
+          position="1.19742 -0.36661 -4.14607"
+          rotation="-77.10063865957436 -43.87939978229896 140.66113870461712"
+          material="src: #Arrow-1; transparent:true"
+          the_dote="Name_of_dote: Dote-3  ; Group_to_activate: Group-3 ; The_rotation:  0"
+        >
+        </a-plane>
+
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".5"
+          class="pintings clickable"
+          position="7.32202 -0.32002 -1.84498"
+          rotation="-72.02251372132987 -83.68564259901291 179.332925086972"
+          material="src: #Arrow-1; transparent:true"
+          the_dote="Name_of_dote: Dote-1  ; Group_to_activate: Group-1 ; The_rotation:  0"
+        >
+        </a-plane>
+
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".5"
+          class="pintings clickable"
+          position="5.65382 -0.32002 4.14561"
+          rotation="-72.02251372132987 -83.68564259901291 179.332925086972"
+          material="src: #Arrow-1; transparent:true"
+          the_dote="Name_of_dote: Dote-9  ; Group_to_activate: Group-9 ; The_rotation:  0"
+        >
+        </a-plane>
+
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-box
+            scale="0.20778 1.2573 0.23177"
+            position="17.15776 0.83845 8.78539"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-0.66163 0.13172 1.96249"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-0.8077 0.569 -11.099"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.20778 1.2573 0.23177"
+            position="14.41975 0.61132 -12.35708"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+        </a-entity>
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-2.41456 -3.59311 -12.16466"
+            rotation="-74.17397024204612 72.35654811589114 -72.62010870165132"
+            material=""
+            geometry=""
+            scale="0.02263 1.86349 0.47136"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="22.90371 -4.62142 16.71799"
+            rotation="-71.29371140592346 173.22290315969693 77.82944097498076"
+            material=""
+            geometry=""
+            scale="0.03866 2.74544 1"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="101.56618 -8.87915 -18.86531"
+            rotation="-76.97115019787479 -93.93471163831308 94.3214581500264"
+            material=""
+            geometry=""
+            scale="0.117 6.52173 0.795"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="56.78174 -13.5749 -115.59564"
+            rotation="-86.23243999836941 -42.79593659170658 121.84520471252085"
+            material=""
+            geometry=""
+            scale="0.30324 6.41756 1.12451"
+          ></a-plane>
+        </a-entity>
+        <!-------------->
+      </a-entity>
+      <!-- Group-3 -->
+      <a-entity scale="0 0 0" class="groups" id="Group-3" visible="false">
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="-1.69105 -0.95417 4.57323"
+          rotation="-61.61931903513952 171.48512216706513 176.09284875550722"
+          the_dote="Name_of_dote: Dote-2 ; Group_to_activate: Group-2 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="-0.64319 -0.7152 -5.83953"
+          rotation="-70.10539693882214 6.197684469930115 -14.436817563911355"
+          the_dote="Name_of_dote: Dote-4 ; Group_to_activate: Group-4 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-box
+            scale="0.20778 1.2573 0.23177"
+            position="17.88183 0.14154 10.11098"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="-1.70726 0.01664 5.08548"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-3.576 0.85513 -9.496"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="8.27713 1.00125 -9.05764"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+        </a-entity>
+        <!-------------->
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-10.92093 -5.62846 -5.74471"
+            rotation="-72.75761857248271 69.84470114203761 -66.10844335998952"
+            material=""
+            geometry=""
+            scale="0.03489 2.50652 0.72657"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="22.91261 -6.41525 -66.55197"
+            rotation="-40.561401190696365 10.502316384747989 -90.87454405451935"
+            material=""
+            geometry=""
+            scale="0.03855 4.6304 0.80321"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="28.54091 -7.62681 31.20184"
+            rotation="-73.3408896079259 175.52619349612283 83.76528373253609"
+            material=""
+            geometry=""
+            scale="0.048 3.68469 1"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="58.05056 -5.36879 -12.8302"
+            rotation="-45.40862413750313 -89.43355519976532 90.34341217843307"
+            material=""
+            geometry=""
+            scale="0.048 4.24231 1"
+          ></a-plane>
+        </a-entity>
+        <!-------------->
+      </a-entity>
+      <!-- Group-4 -->
+      <a-entity scale="0 0 0" class="groups" id="Group-4" visible="false">
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="0.01705 -0.78005 4.88396"
+          rotation="-82.328305582348 -146.59870033555782 60.80801079723427"
+          the_dote="Name_of_dote: Dote-3 ; Group_to_activate: Group-3 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="0.30741 -0.15721 -5.57891"
+          rotation="-79.0905210820637 17.973113075458794 -109.03845207575671"
+          the_dote="Name_of_dote: Dote-7 ; Group_to_activate: Group-7 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-box
+            scale="0.20778 1.2573 0.23177"
+            position="12.14803 0.81554 10.22391"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="-1.54152 0.48939 7.65791"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-1.79314 0.49477 -5.51995"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="8.07001 0.50252 -6.32747"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+        </a-entity>
+        <!-------------->
+        <!-------------->
+
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-8.12252 -5.27634 13.3982"
+            rotation="-72.22877852757696 71.75895313556968 -76.14265322611563"
+            material=""
+            geometry=""
+            scale="0.03489 3.09807 0.72657"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="16.70951 -8.13453 -37.82438"
+            rotation="-67.6789206764431 -9.905294362221673 -83.59282343620173"
+            material=""
+            geometry=""
+            scale="0.04126 2.97974 0.85968"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="23.26898 -6.06225 48.56469"
+            rotation="-74.00322881909713 -174.4679404485162 83.17571016134647"
+            material=""
+            geometry=""
+            scale="0.048 3.26502 1"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="58.67683 -6.5214 15.10191"
+            rotation="-67.17414485893285 -64.52306914086252 86.98989020353237"
+            material=""
+            geometry=""
+            scale="0.048 4.87763 1"
+          ></a-plane>
+        </a-entity>
+        <!-------------->
+      </a-entity>
+      <!-- Group-5 -->
+      <a-entity scale="0 0 0" class="groups" id="Group-5" visible="false">
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="-0.7345 -0.22159 -7.14574"
+          rotation="-76.5677879101027 20.48324117592693 -109.88642961255033"
+          the_dote="Name_of_dote: Dote-0 ; Group_to_activate: Group-0 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="-5.89246 -0.6239 1.32951"
+          rotation="-72.2087250047474 108.15495115566497 162.2943061753716"
+          the_dote="Name_of_dote: Dote-8 ; Group_to_activate: Group-8 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-box
+            scale="0.20778 1.2573 0.23177"
+            position="0.64273 0.01932 4.2156"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="-12.17203 0.81379 -0.89229"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-18.11329 0.849 -16.46327"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="-1.01578 0.75123 -12.7078"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+        </a-entity>
+        <!-------------->
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-53.14205 -3.22041 -25.83307"
+            rotation="-60.37027104175432 79.34835208987258 -83.93774402887047"
+            material=""
+            geometry=""
+            scale="0.03489 2.11315 0.72657"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-20.96899 -1.42273 -33.51369"
+            rotation="-70.55115810343392 -8.530195653907697 -92.01759485580534"
+            material=""
+            geometry=""
+            scale="0.03185 1.90782 0.66363"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-67.55463 -11.91144 5.42161"
+            rotation="-74.00208290350686 177.8884984854472 82.02062724636274"
+            material=""
+            geometry=""
+            scale="0.09068 7.01542 1.88914"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-0.20957 -8.38989 -21.07718"
+            rotation="-65.75836614716458 -71.54237508901025 77.27195304031846"
+            material=""
+            geometry=""
+            scale="0.0424 3.81665 1.36244"
+          ></a-plane>
+        </a-entity>
+        <!-------------->
+      </a-entity>
+      <!-- Group-6 -->
+      <a-entity scale="0 0 0" class="groups" id="Group-6" visible="false">
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="7.71516 -0.67073 3.07966"
+          rotation="-72.71178194887226 -76.42798620809077 2.946148982562693"
+          the_dote="Name_of_dote: Dote-0 ; Group_to_activate: Group-0 ; The_rotation: 0"
+        >
+        </a-plane>
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="-6.33238 -0.67073 0.43385"
+          rotation="-74.44555223693813 97.41886799050361 -172.87569073584766"
+          the_dote="Name_of_dote: Dote-7 ; Group_to_activate: Group-7 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-box
+            scale="0.20778 1.2573 0.23177"
+            position="13.97681 0.83811 12.51892"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-2.55455 0.814 9.93223"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-8.69024 0.35826 -1.20852"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="3.85705 0.44512 -5.27504"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+        </a-entity>
+        <!-------------->
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-18.58153 -3.61535 18.50897"
+            rotation="-73.19077466560162 104.97618130827917 -87.98912859824053"
+            material=""
+            geometry=""
+            scale="0.035 2.34181 0.727"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-10.18466 -6.36038 -16.37809"
+            rotation="-64.56374914431682 19.955547046611446 -90.38867584424841"
+            material=""
+            geometry=""
+            scale="0.04126 2.92997 0.85968"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="20.5713 -3.57978 42.51862"
+            rotation="-74.00208290350686 177.8884984854472 89.7377957889798"
+            material=""
+            geometry=""
+            scale="0.048 3.13953 1"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="45.44127 -5.58508 19.28784"
+            rotation="-66.34851267614933 -58.60498807495625 89.9257259457827"
+            material=""
+            geometry=""
+            scale="0.04654 5.12424 0.96966"
+          ></a-plane>
+        </a-entity>
+        <!-------------->
+      </a-entity>
+      <!-- Group-7 -->
+      <a-entity scale="0 0 0" class="groups" id="Group-7" visible="false">
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="6.36721 -1.16557 -1.09046"
+          rotation="-59.287953766752196 -74.96522495712178 -4.903372810729586"
+          the_dote="Name_of_dote: Dote-6 ; Group_to_activate: Group-6 ; The_rotation: 0"
+        >
+        </a-plane>
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="-4.10736 -0.48069 2.64812"
+          rotation="-67.88919618725612 117.0627259965639 156.4994110354185"
+          the_dote="Name_of_dote: Dote-4 ; Group_to_activate: Group-4 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-box
+            scale="0.20778 1.2573 0.23177"
+            position="13.49639 0.56662 16.97569"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="-2.54415 0.53276 10.44477"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-4.56086 0.74 -2.4319"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="8.81933 0.70223 -4.0226"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+        </a-entity>
+        <!-------------->
+        <!-------------->
+
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-13.81929 -3.95442 15.56757"
+            rotation="-73.22343325992408 98.12704382528531 -87.76624801593462"
+            material=""
+            geometry=""
+            scale="0.035 2.4567 0.727"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="2.96703 -4.32589 -13.93626"
+            rotation="-83.07601550499372 -22.935500539086853 -67.01944625424753"
+            material=""
+            geometry=""
+            scale="0.041 2.65778 0.86"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="13.77074 -3.37726 42.24392"
+            rotation="-74.00208290350686 177.8884984854472 82.648016032031"
+            material=""
+            geometry=""
+            scale="0.048 2.29084 1"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="42.77438 -4.57432 16.81564"
+            rotation="-66.20699210075202 -92.31839769824902 92.19807656127155"
+            material=""
+            geometry=""
+            scale="0.03869 3.66834 0.80611"
+          ></a-plane>
+        </a-entity>
+        <!-------------->
+      </a-entity>
+      <!-- Group-8 -->
+      <a-entity scale="0 0 0" class="groups" id="Group-8" visible="false">
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="4.86504 -1.02062 -2.21713"
+          rotation="-76.70587073872922 -82.39706051776369 -4.676481523857779"
+          the_dote="Name_of_dote: Dote-5 ; Group_to_activate: Group-5 ; The_rotation: 0"
+        >
+        </a-plane>
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="-7.69754 -0.35868 -0.05651"
+          rotation="-75.26889258854112 92.2530805096041 179.93739556083503"
+          the_dote="Name_of_dote: Dote-9 ; Group_to_activate: Group-9 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-box
+            scale="0.208 1.257 0.232"
+            position="5.98845 -0.064 0.50024"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="-9.91046 0.69385 0.22164"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-13.51592 0.27188 -9.72198"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-3.58157 0.38581 -14.879"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+        </a-entity>
+        <!-------------->
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-38.68794 -3.59588 -13.85904"
+            rotation="-61.59754663892455 93.53593301290202 -88.88466163203"
+            material=""
+            geometry=""
+            scale="0.035 1.47437 0.727"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-25.16114 -3.14999 -33.52479"
+            rotation="-84.16062461117636 6.3329025095809905 -78.07638578468215"
+            material=""
+            geometry=""
+            scale="0.041 1.70436 0.86"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-11.74081 -5.20352 1.02091"
+            rotation="-75.01163453852737 171.43871258565954 97.84113788551502"
+            material=""
+            geometry=""
+            scale="0.02236 3.18347 1"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-3.30185 -4.83301 -38.10262"
+            rotation="-76.92703244764972 -78.19556100606937 99.15951377211105"
+            material=""
+            geometry=""
+            scale="0.03869 4.1106 0.80611"
+          ></a-plane>
+        </a-entity>
+        <!-------------->
+      </a-entity>
+      <!-- Group-9 -->
+      <a-entity scale="0 0 0" class="groups" id="Group-9" visible="false">
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="7.64315 -1.02062 0.52802"
+          rotation="-76.70587073872922 -82.39706051776369 -4.676481523857779"
+          the_dote="Name_of_dote: Dote-8 ; Group_to_activate: Group-8 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <a-plane
+          data-clickable
+          scale="0.9 0.9 0.9"
+          opacity=".8"
+          class="Dote"
+          material="src: #Arrow-1; transparent:true"
+          position="-7.23376 -0.68832 -1.92882"
+          rotation="-75.26889258854112 92.2530805096041 179.93739556083503"
+          the_dote="Name_of_dote: Dote-2 ; Group_to_activate: Group-2 ; The_rotation: 0"
+        >
+        </a-plane>
+
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-box
+            scale="0.208 1.257 0.232"
+            position="13.95766 -0.064 -0.17036"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.15059 0.91123 0.16798"
+            position="-5.61099 0.48929 -0.10873"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="-8.24467 0.9915 -12.55654"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+
+          <a-box
+            scale="0.151 0.911 0.168"
+            position="2.67453 0.66472 -14.25488"
+            rotation="0 45 0"
+            color="#fce6b1"
+            material=""
+            geometry=""
+          ></a-box>
+        </a-entity>
+        <!-------------->
+        <!-------------->
+        <a-entity position="" scale="" rotation="" visible="">
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-4.56688 -1.53174 -31.21282"
+            rotation="-78.24082467188471 44.236925446460596 -109.87497045664773"
+            material=""
+            geometry=""
+            scale="0.04212 1.43564 0.87495"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="-24.64218 -3.0757 -20.47258"
+            rotation="-24.919653383624894 89.04394389907637 -84.50554520384513"
+            material=""
+            geometry=""
+            scale="0.0256 -1.85777 11.16118"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="9.17198 -5.58452 -0.44791"
+            rotation="-75.01163453852737 172.75823438784582 97.84113788551502"
+            material=""
+            geometry=""
+            scale="0.0322 3.18347 1"
+          ></a-plane>
+          <a-plane
+            color="yellow"
+            opacity=".2"
+            height="20"
+            width="20"
+            position="21.56 -3.717 -24.164"
+            rotation="-76.583 -61.543000000000006 87.892"
+            material=""
+            geometry=""
+            scale="0.039 2.688 0.806"
+          ></a-plane>
+        </a-entity>
+        <!-------------->
+      </a-entity>
+
+      <!-- ############################################################ -->
+      <!-- ############################################################ -->
+      <!-- ############################################################ -->
+    </a-scene>
+
+    <div class="the_description">
+      <p>
+        Lotissement de Pointe Sarène:<br />
+        - Parcelle de 300m2 cumulable<br />
+        - ⁠à 1200m de la mer <br />
+        - ⁠3min du centre ville<br />
+        - ⁠5min du RIU BAOBAB <br />
+        - ⁠15 min de mbour <br />
+        - ⁠25 min de Saly <br />
+        - ⁠45 min de l’aéroport <br />
+        - ⁠ 1h15 Dakar
+      </p>
+
+      <div class="map_container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3866.4492539984435!2d-16.898212524899854!3d14.285310186164526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDE3JzA3LjEiTiAxNsKwNTMnNDQuMyJX!5e0!3m2!1sfr!2ssn!4v1761518117571!5m2!1sfr!2ssn"
+          width="100%"
+          height="100%"
+          allowfullscreen=""
+          loading="lazy"
+          style="border: 0"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="the_description-video">
+      <video width="100%" controls>
+        <source src="./Style/Images/Video-1.mp4" type="video/mp4" />
+        <source src="./Style/Images/Video-1.mp4" type="video/ogg" />
+      </video>
+    </div>
+
+    <div class="the_info">
+      <img src="./Style/Images/PNG/information.svg" />
+      <img src="./Style/Images/PNG/close.svg" />
+    </div>
+    <a href="https://askanndaw.com/fr/contact" class="the_mail">
+      <img src="./Style/Images/PNG/mail.svg" />
+    </a>
+
+    <div class="the_info-2">
+      <img src="./Style/Images/PNG/film.svg" />
+      <img src="./Style/Images/PNG/close.svg" />
+    </div>
+
+    <script>
+      let loaderContainer = document.querySelector(".hover_loader_container");
+      let groups = document.querySelectorAll(".groups");
+      let the_sky = document.querySelector("#image-360");
+      let the_cursor = document.querySelector(".a-mouse-cursor-hover");
+      let theBlachHover = document.querySelector(".the_blach_hover");
+      let img_1 = document.querySelector("#Scene-0");
+      let theInfo = document.querySelector(".the_info");
+      let theInfo_2 = document.querySelector(".the_info-2");
+      let theDescription = document.querySelector(".the_description");
+      let theVideoDescription = document.querySelector(
+        ".the_description-video"
+      );
+
+      theInfo.addEventListener("click", () => {
+        if (theInfo.classList.length === 1) {
+          theInfo.classList.add("the_info_active");
+          theDescription.style.bottom = "8%";
+
+          theVideoDescription.style.bottom = "";
+          theInfo_2.classList.remove("the_info_active");
+        } else {
+          theDescription.style.bottom = "";
+          theInfo.classList.remove("the_info_active");
+        }
+      });
+
+      theInfo_2.addEventListener("click", () => {
+        if (theInfo_2.classList.length === 1) {
+          theInfo_2.classList.add("the_info_active");
+          theVideoDescription.style.bottom = "8%";
+
+          theDescription.style.bottom = "";
+          theInfo.classList.remove("the_info_active");
+        } else {
+          theVideoDescription.style.bottom = "";
+          theInfo_2.classList.remove("the_info_active");
+        }
+      });
+
+      const setStrat = (theStrat, theRotation) => {
+        the_sky.setAttribute("src", `#Scene-${theStrat}`);
+        let the_group_to_activate = document.querySelector(
+          `#Group-${theStrat}`
+        );
+        groups.forEach((group) => {
+          group.setAttribute("visible", "false");
+          group.setAttribute("scale", "0 0 0");
+        });
+        the_group_to_activate.setAttribute("visible", "true");
+        the_group_to_activate.setAttribute("scale", "1 1 1");
+        the_sky.setAttribute("rotation", `0 ${theRotation} 0`);
+      };
+      setStrat(9, 0);
+
+      AFRAME.registerComponent("the_dote", {
+        schema: {
+          Name_of_dote: { type: "string", default: "#Name" },
+          Group_to_activate: { type: "string", default: "#Position" },
+          The_rotation: { type: "string", default: "0" },
+        },
+
+        init: function () {
+          var stringTqoLog = this.data;
+          let Dote_Name = this.data.Name_of_dote;
+          let Group_to_activate = this.data.Group_to_activate;
+          let TheRotation = this.data.The_rotation;
+          let The_Arrow = this.el;
+          this.el.setAttribute(
+            "event-set__mouseleave",
+            "scale: 0.9 0.9 0.9 ; opacity : 0.8 "
+          );
+          this.el.setAttribute(
+            "event-set__mouseenter",
+            "scale: 1.1 1.1 1.1 ; opacity : 1"
+          );
+          this.el.addEventListener("click", (theDote) => {
+            theBlachHover.style.transitionDelay = "0s , 0s";
+            theBlachHover.style.opacity = "1";
+            theBlachHover.style.height = "100vh";
+
+            setTimeout(() => {
+              theBlachHover.style.transitionDelay = "0s , .6s";
+
+              switch (Dote_Name) {
+                case "Dote-0":
+                  the_sky.setAttribute("src", "#Scene-0");
+                  break;
+                case "Dote-1":
+                  the_sky.setAttribute("src", "#Scene-1");
+                  break;
+                case "Dote-2":
+                  the_sky.setAttribute("src", "#Scene-2");
+                  break;
+                case "Dote-3":
+                  the_sky.setAttribute("src", "#Scene-3");
+                  break;
+                case "Dote-4":
+                  the_sky.setAttribute("src", "#Scene-4");
+                  break;
+                case "Dote-5":
+                  the_sky.setAttribute("src", "#Scene-5");
+                  break;
+                case "Dote-6":
+                  the_sky.setAttribute("src", "#Scene-6");
+                  break;
+                case "Dote-7":
+                  the_sky.setAttribute("src", "#Scene-7");
+                  break;
+                case "Dote-8":
+                  the_sky.setAttribute("src", "#Scene-8");
+                  break;
+                case "Dote-9":
+                  the_sky.setAttribute("src", "#Scene-9");
+                  break;
+
+                default:
+                  break;
+              }
+              let the_group_to_activate = document.querySelector(
+                `#${Group_to_activate}`
+              );
+
+              groups.forEach((group) => {
+                group.setAttribute("visible", "false");
+                group.setAttribute("scale", "0 0 0");
+              });
+              the_group_to_activate.setAttribute("visible", "true");
+              the_group_to_activate.setAttribute("scale", "1 1 1");
+              the_sky.setAttribute("rotation", `0 ${TheRotation} 0`);
+              theBlachHover.style.opacity = "0";
+              theBlachHover.style.height = "0vh";
+            }, 1200);
+          });
+        },
+      });
+
+      const theInt = setInterval(intFunc, 3000);
+
+      function intFunc() {
+        if (img_1.complete) {
+          loaderContainer.style.display = "none";
+          console.log(img_1.complete);
+          clearInterval(theInt);
+        } else {
+          console.log(img_1.complete);
+        }
+      }
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
